@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cus_id"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/txt_message_subject"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cus_name"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/txt_message_body"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Phone_no"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/lyt_ann_message"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOJ"
+        android:textColor="@color/colorAccent"
+        android:id="@+id/doj"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
